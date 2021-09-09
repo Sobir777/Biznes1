@@ -1,0 +1,32 @@
+.ContainerTitle{
+    background: #1b1b1b;
+    max-height: 410px;
+    /* margin: auto; */
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.TitleLoGo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    margin-bottom: -40px;
+}
+
+.descriptionLogo{
+    font-family: HelveticaNeueCyr,sans-serif;
+    font-size: 52px;
+    line-height: 62px;
+    max-width: 1250px;
+    color: #fcffff;
+}
+.Companents{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+

@@ -1,0 +1,341 @@
+.ForLine{
+    width: 500px;
+    height: 2px;
+    background-color: rgb(187, 187, 187);
+}
+.TitleOfterBlack{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 25px;
+}
+.LoremOfterBlack{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    min-height: 42px;
+    margin-bottom: 20px;
+    width: 507px;
+}
+
+.LefTContainer{
+    width: 507px;
+}
+
+.LogoOfterBlack{
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 507px;
+}
+.OfterBlack{
+    max-width: 1300px ;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.SolidOfterBlack{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed rgb(0, 0, 0);
+    border-top: 1px dashed rgb(0, 0, 0);
+}
+.Bigger{
+    font-size: 30px;
+}
+.Linee{
+    border-left: 1px solid rgb(146, 146, 146);
+}
+.BtnBtn{
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 50%;
+}
+.ContentProses{
+    /* margin-top: 20px; */
+    /* margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.ContentProsess{
+    /* margin-top: 20px; */
+    /* margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+}
+.LineLineProgras{
+    width: 200px;
+    height: 10px;
+    background-color: rgb(80, 80, 247);
+    border-radius: 10px;
+    margin-right: -10px;
+    z-index: 10;
+}
+.LineLinePrograsTwo{
+    width: 400px;
+    height: 10px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+}
+.LineLinePrograsA{
+    width: 50px;
+    height: 10px;
+    background-color: rgb(80, 80, 247);
+    border-radius: 10px;
+    margin-right: -10px;
+    z-index: 10;
+}
+.LineLinePrograsTwoA{
+    width: 550px;
+    height: 10px;
+    background-color: rgb(186, 186, 189);
+    border-radius: 10px;
+}
+.LineLinePrograsB{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(80, 80, 247);
+    border-radius: 10px;
+    margin-right: -10px;
+    z-index: 10;
+}
+.LineLinePrograsTwoB{
+    width: 500px;
+    height: 10px;
+    background-color: rgb(186, 186, 189);
+    border-radius: 10px;
+}
+.LineLinePrograsD{
+    width:550px;
+    height: 10px;
+    background-color: rgb(80, 80, 247);
+    border-radius: 10px;
+    margin-right: -10px;
+    z-index: 10;
+}
+.LineLinePrograsTwoD{
+    width: 50px;
+    height: 10px;
+    background-color: rgb(186, 186, 189);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .LineLineProgras{
+        width:200px ;     
+    }
+    .LineLinePrograsTwo{
+        width: 300px;
+    }
+    .LineLinePrograsB{
+        width:100px ;
+    }
+    .LineLinePrograsTwoB{
+        width: 400px;    
+    }
+    .LineLinePrograsA{
+        width:50px ;
+    }
+    .LineLinePrograsTwoA{
+        width: 450px;    
+    }
+    .LineLinePrograsD{
+        width: 450px; 
+    }
+    .LineLinePrograsTwoD{
+        width:50px ;  
+    }
+    .Bigger{
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    .LineLineProgras{
+        width:150px ;     
+    }
+    .LineLinePrograsTwo{
+        width: 250px;
+    }
+    .LineLinePrograsB{
+        width:100px ;
+    }
+    .LineLinePrograsTwoB{
+        width: 300px;    
+    }
+    .LineLinePrograsA{
+        width:50px ;
+    }
+    .LineLinePrograsTwoA{
+        width: 350px;    
+    }
+    .LineLinePrograsD{
+        width: 350px; 
+    }
+    .LineLinePrograsTwoD{
+        width:50px ;  
+    }
+    .Bigger{
+        font-size: 24px;
+    }
+
+
+
+
+
+}
+@media only screen and (max-width: 1030px) {
+    .LefTContainer{
+        width: 457px;
+    }
+    .LogoOfterBlack{
+        width: 457px;
+    }
+    .LoremOfterBlack{
+        width: 457px;
+    }
+    .TitleOfterBlack{
+        width: 457px;
+    }
+    .ForLine{
+        width: 457px;
+    }
+    .SolidOfterBlack{
+        width: 457px;
+    }
+
+}
+
+@media only screen and (max-width: 897px) {
+    .OfterBlack{
+        display: block;
+    }
+    /* .Linee{
+        display: none;
+    } */
+    .LineLineProgras{
+        width: 200px;
+        height: 10px;
+        background-color: rgb(80, 80, 247);
+        border-radius: 10px;
+        margin-right: -10px;
+        z-index: 10;
+    }
+    .LineLinePrograsTwo{
+        width: 400px;
+        height: 10px;
+        background-color: rgb(209, 209, 209);
+        border-radius: 10px;
+    }
+    .LineLinePrograsA{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(80, 80, 247);
+        border-radius: 10px;
+        margin-right: -10px;
+        z-index: 10;
+    }
+    .LineLinePrograsTwoA{
+        width: 550px;
+        height: 10px;
+        background-color: rgb(186, 186, 189);
+        border-radius: 10px;
+    }
+    .LineLinePrograsB{
+        width: 100px;
+        height: 10px;
+        background-color: rgb(80, 80, 247);
+        border-radius: 10px;
+        margin-right: -10px;
+        z-index: 10;
+    }
+    .LineLinePrograsTwoB{
+        width: 500px;
+        height: 10px;
+        background-color: rgb(186, 186, 189);
+        border-radius: 10px;
+    }
+    .LineLinePrograsD{
+        width:550px;
+        height: 10px;
+        background-color: rgb(80, 80, 247);
+        border-radius: 10px;
+        margin-right: -10px;
+        z-index: 10;
+    }
+    .LineLinePrograsTwoD{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(186, 186, 189);
+        border-radius: 10px;
+    }
+    .ForLine{
+        width: 500px;
+        height: 2px;
+        background-color: rgb(187, 187, 187);
+    }
+    .TitleOfterBlack{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .LoremOfterBlack{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000;
+        min-height: 42px;
+        margin-bottom: 20px;
+        width: 507px;
+        text-align: center;
+    }
+    .LefTContainer{
+        width: 507px;
+    }
+    .LogoOfterBlack{
+        line-height: 1.5;
+        font-weight: 600;
+        font-size: 24px;
+        color: #000;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        width: 507px;
+        text-align: center;
+    }
+    .OfterBlack{
+        width: 600px;
+    }
+    .SolidOfterBlack{
+        width: 600px;
+        text-align: center;
+    }
+    .Bigger{
+        text-align: center;
+        font-size: 30px;
+    }
+    
+
+
+
+
+
+
+}
+
+
+
+
+

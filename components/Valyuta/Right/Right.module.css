@@ -1,0 +1,45 @@
+.flag{
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+
+.cost{
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.rasim{
+    width: 320px;
+    height: 360px;
+    margin-bottom: -50px;
+}
+
+.color{
+    color: green;
+}
+
+.rightImgImg{
+    width: 100%;
+}
+
+@media only screen and (max-width: 810px) {
+    .cost{
+        width: 700px;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+    }
+    .rasconTainerim{
+        display: flex;
+        justify-content: center;
+
+    }
+    .rasim{
+    margin-left: 200px;
+    }
+
+
+}

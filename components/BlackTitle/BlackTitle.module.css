@@ -1,0 +1,31 @@
+
+.ContainerBlack{
+    max-width: 1350px;
+    height: 200px;
+    margin: auto;
+    background-color: #000;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding-top: 30px
+}
+
+.ForColor{
+    display: flex;
+    text-align: center;
+    color: #ffff;
+}
+.ForColorr{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #ffff;
+}
+
+@media only screen and (max-width: 750px) {
+    .ContainerBlack{
+        width:100% ;
+    }
+
+
+
+}

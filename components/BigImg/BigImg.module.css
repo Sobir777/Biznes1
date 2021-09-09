@@ -1,0 +1,230 @@
+.container{
+    max-width: 1350px;
+    margin: auto;
+    margin-top:50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+        
+.contentRight{
+    width: 340px;
+    padding-left: 30px;
+    border-left:  solid 1px rgb(218, 218, 218) ;
+}
+
+.btnOne{
+    width: 110px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.texxtt{
+    font-weight: 600;
+    font-size: 22px;
+    min-height: 66px;
+    margin-top: 15px;
+    padding-bottom:15px;
+    border-bottom: 1px solid  rgb(218, 218, 218)  ;
+}
+
+.texxt{
+    font-weight: 600;
+    font-size: 22px;
+    min-height: 66px;
+    padding-bottom:15px;
+    border-bottom: 1px solid  rgb(218, 218, 218)  ;
+}
+.texxttt{
+    font-weight: 600;
+    font-size: 22px;
+    min-height: 66px;
+    padding-bottom:15px;
+    border-bottom: 1px solid  rgb(218, 218, 218)  ;
+}
+
+.texxtt:hover{
+    color: rgb(218, 218, 218) ;
+}
+.texxttt:hover{
+    color: rgb(218, 218, 218) ;
+}
+.texxt:hover{
+    color: rgb(218, 218, 218) ;
+}
+
+.rightImgRight{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.rightText{
+    width: 340px;
+}
+
+.lormText{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.description{
+    margin-top: 5px;
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.dadee{
+    margin-top: 5px;
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.bothOfContent{
+    width: 420px;
+    height: 300px;
+    margin-bottom: -50px;
+}
+
+.bothOf{
+    display: flex;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .BIGimg{
+        /* width: 600px;
+        height: 400px; */
+        margin-left: 50px;
+    }
+
+    .LogoTitle{
+        font-size: 26px;    
+        margin-left: 50px;
+    }
+
+    .lormText{
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .bothOfContent{
+        width: 380px;
+        height: 180px;
+        margin-bottom: 50px;
+    }
+    .bothOf{
+        margin-left: 50px;
+    }
+    .containerDescription{
+        margin-left:50px ;
+    }
+  }
+@media only screen and (max-width: 1100px) {
+    
+    .BIGimg{
+        /* width: 600px;
+        height: 400px; */
+        margin-left: 120px;
+    }
+
+    .LogoTitle{
+        font-size: 23px;    
+        margin-left: 120px;
+    }
+
+    .lormText{
+        font-size: 18px;
+        margin-left: 120px;
+    }
+    .bothOfContent{
+        width: 380px;
+        height: 180px;
+        margin-bottom: 50px;
+    }
+    .bothOf{
+        margin-left: 120px;
+    }
+    .containerDescription{
+        margin-left:120px ;
+    }
+  }
+
+@media only screen and (max-width: 1044px) {
+    .container{
+        display: block;
+    }
+    .BIGimg{
+        display: flex;
+        justify-content: center;
+    }
+    .BIGimg{
+        margin-left: 0px;
+        width: 940px;
+        height: 600px;
+    }
+    .LogoTitle{
+        width: 700px;
+        /* text-align: center; */
+    }
+    .lormText{
+        width: 750px;
+        /* text-align: center; */
+    }
+    .bothOf{
+        margin-left: 40px;
+    }
+    .contentRight{
+        width: 900px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-right: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .bothOf{
+        display: block;
+        width: 850px;
+                gap: 50px;
+        margin-left: 60px;
+    }
+    .ContainerBothOf{
+        display: flex ;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .titlea{
+        width: 400px;
+
+    }
+    .bothOfContent{
+        width: 420px; 
+    }
+    .LogoTitle{
+        width: 800px;
+        font-size: 26px;
+    }
+    .lormText{
+        width: 800px;
+        font-size: 18px;
+    }
+    .DesctiptionLOrem{
+        font-size: 30px;
+    }
+    .dadee{
+        font-size: 18px;
+    }
+    .rightImgRight{
+        margin-top: 200px;
+    }
+
+}

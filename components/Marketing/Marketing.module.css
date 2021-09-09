@@ -1,0 +1,265 @@
+.ContainerThree{
+    max-width: 1250px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.ContentThreeImg{
+    width: 420px;
+    height: 280px;
+}
+
+.TitleThree{
+    width: 420px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.LogoTitleThree{
+    margin-bottom: 80px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(139, 139, 139); 
+}
+
+.LogoThree{
+    width: 420px;  
+}
+
+.ImgLeftImg{
+    width: 100%; 
+    margin-right: 30px;
+}
+
+.ContainerThreeMidle{
+    width: 420px;
+}
+
+.ContentImgText{
+    width: 420px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.ContainerImg{
+    width: 150px;
+    height: 150px;
+}
+
+.ForTextt{
+    width: 260px;
+}
+
+.Tteexxtt{
+    margin-top:-5px ;
+    margin-bottom:-5px ;
+}
+
+.LoremLorem{
+    font-size: 12px;
+    font-family:sans-serif ;
+    margin-top: 40px;
+}
+
+.MidleImgg{
+    height: 100%;
+    width: 100%;
+}
+
+.TexttTextt{
+    margin-top: -5px;
+}
+
+.BorderLine{
+    border-top: 1px solid rgb(184, 184, 184);
+    width: 420px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Tteexxtt{
+    /* margin-top: 15px;
+    margin-bottom: 10px; */
+    font-size: 17px;
+}
+
+.ContainerThreeRight{
+    margin-left: 40px;
+}
+.ContainerThreeRighttt{
+    margin-left: 40px;
+    display: none;
+}
+
+.TextWithBorderr{
+    border-bottom: 1px solid rgb(170, 170, 170);
+    padding-bottom: 20px;
+    margin-top: -5px;
+    
+}
+.TextWithBorder{
+    border-bottom: 1px solid rgb(170, 170, 170);
+    padding-bottom: 20px;
+    margin-top: 15px; 
+}
+
+.ContainerThreeMidle{
+    margin-left: 20px;
+}
+.ContainerThreeMidlee{
+    display: none;
+    margin-left: 20px;
+}
+
+.TitleM{
+    max-width: 1250px;
+    margin: auto;
+
+}
+
+.TitleLogoM{
+    font-size: 40px;
+}
+
+.ForDashidLine{
+    max-width: 1250px;
+    margin: auto;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .ContainerThreeMidle{
+        display: none;    
+    }
+    .ContainerThreeMidlee{
+        display:block ;
+    }
+    .ContentThreeImg{
+        width: 700px;
+        height: 470px;
+    }
+    .TitleM{
+        margin-left: 30px;
+    }
+    .ContainerThreeLeft{
+        margin-left: 30px;
+    }
+    .TitleThree{
+        width: 600px;
+    }
+    .LogoThree{
+        width: 600px;
+    }
+    .ContainerThreeMidlee{
+        display: flex;
+        gap: 50px;
+    }
+    .BorderLine{
+        display: none;
+    }
+    
+    
+    }
+@media only screen and (max-width: 1200px) {
+
+    .ContentThreeImg{
+        width: 600px;
+        height: 400px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .ContainerThree{
+        display: block;
+    }
+    .ContentThreeImg{
+        width: 900px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+
+    }
+    .TitleThree{
+        width: 750px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+    .LogoThree{
+        margin-left: 200px;
+        font-size: 18px;
+    }
+    .LogoTitleThree{
+        margin-left: 700px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .ContainerThreeRight{
+        width: 330px;
+    }
+    .ContainerThreeRighttt{
+        width: 330px;
+    }
+    .ContainerThreeRighttt{
+        display: block;
+    }
+    .ContainerThreeRight{
+        display: none;
+    }
+    .abss{
+        display: flex;
+    }
+    .ContainerThreeMidlee{
+        display: block;
+    }
+    .ForDashidLine{
+        width: 800px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 1200px) {
+
+    .ContentThreeImg{
+        width: 700px;
+        height: 470px;
+    }
+    
+    }
+@media only screen and (max-width: 1200px) {
+
+    .ContentThreeImg{
+        width: 700px;
+        height: 470px;
+    }
+    
+    } */
