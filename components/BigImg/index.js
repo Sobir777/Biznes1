@@ -23,7 +23,7 @@ export default function BigImg() {
                     </div>
 
                     <div className={cls.teexxtt}>
-                        <h1 className={cls.LogoTitle}>Raqobatbardosh va eng kuchli SMM agenstvo ochish uchun <br /> nimalarni bilish kerak: Doniyor
+                        <h1 className={cls.LogoTitle}>Raqobatbardosh va. eng kuchli SMM agenstvo ochish uchun <br /> nimalarni bilish kerak: Doniyor
                             Abdullayevdan maslahatlar</h1>
                         <h3 className={cls.lormText}>
                             Bugungi kunda SMM sohasi eng keng tarqalgan va katta talabga ega sohalardan biriga <br /> aylandi.
